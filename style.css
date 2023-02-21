@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Halant:wght@500&display=swap');
+
+
+
+* {
+    padding: o;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.nav-word {
+
+
+    height: 86.08000183105469px;
+    width: 1512px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    padding: 16px 120px 16px 120px;
+    background-color: #F1F5FE;
+    margin: 50px auto;
+
+}
+
+
+#logo {
+    color: #155EEF;
+    font-family: 'Manrope', sans-serif;
+    
+
+}
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Halant', serif;
+    Height: Hug (44px);
+    Top: 21.04px;
+    Left: 953px;
+    Gap: 97px;
+}
+
+.hire {
+    color: #155EEF;
+    height: 44px;
+    width: 94px;
+    left: 346.5px;
+    top: 0px;
+    border-radius: 8px;
+    padding: 10px 16px 10px 16px;
+    border-color: #155EEF;
+}
+
+.bio {
+    height: 535px;
+    width: 1512px;
+    left: 0px;
+    top: 80px;
+    border-radius: 0px;
+    color: whitesmoke;
+    margin-left: 390px ;
+}
+.see{
+    background-color: #155EEF;
+    color: white;
+    Padding:10px,16px,10px,16px;
+    width: 164px;
+    height: 44px;
+    gap: 10px;
+    border-radius: 8px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5 px;
+
+}
+
+#anthony{
+    font-family: 'Halant', serif;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 67.2px;
+    color: #FFFFFF;
+
+}
+.bio h3{
+    color:  #B8B8B8;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0.5 px;
+}
+.bio p{
+    color: #B8B8B8;
+    font-size: 32px;
+    line-height: 48px;
+    
+    Align: Left;
+    Vertical-align: Top; 
+    Letter-spacing: 0.5px;
+    font-family: 'Manrope', sans-serif;
+    font-style: Medium;
+}
+.toppy{
+    display: flex;
+  
+}
+.toppy img{
+    margin-right: 350px;
+}
+.about{
+    background-color: white;
+    Width :1512px ;
+    Height :438px;
+    margin-left: 250px;
+}
+.abt{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
