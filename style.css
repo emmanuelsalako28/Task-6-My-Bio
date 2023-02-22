@@ -2,11 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Halant:wght@500&display=swap');
 
 @media screen and (max-width :375px) {
-    .nav-word {
-        display: flex;
+    main {
+        
+        margin: 0px;
     }
 
-    .down {}
+    
 }
 
 * {
@@ -58,6 +59,7 @@ body {
     top: 80px;
     color: whitesmoke;
     /* margin-left: 110px ; */
+    padding-left: 100px;
 }
 
 .see {
@@ -102,12 +104,14 @@ body {
     font-weight: 500;
     line-height: 48px;
     letter-spacing: 0.5px;
-    text-align: left;
+    
 }
 
 .toppy {
     display: flex;
-    width: 60%;
+    height: 479px;
+    width: 50%;
+    margin-top: 90px;
 
 }
 
@@ -115,8 +119,8 @@ body {
     height: 479px;
     width: 443px;
     left: 949px;
-    top: 56px;
-    border-radius: 0px;
+    
+    
 }
 
 .about {
