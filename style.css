@@ -20,21 +20,15 @@ body {
 }
 
 .nav-word {
-
-
     width: 70%;
     padding: 16px 120px 16px 120px;
     background-color: #F1F5FE;
-
-
 }
 
 
 #logo {
     color: #155EEF;
     font-family: 'Manrope', sans-serif;
-
-
 }
 
 .home {
@@ -116,8 +110,6 @@ body {
     display: flex;
     width: 60%;
 
-
-
 }
 
 .toppy img {
@@ -134,8 +126,6 @@ body {
     Height: 438px;
     display: flex;
     gap: 20px;
-
-
 }
 
 .about img {
@@ -145,8 +135,6 @@ body {
     display: flex;
     margin-top: 32px;
     margin-left: 120px;
-
-
 }
 
 .meee {
@@ -174,12 +162,11 @@ body {
 .about p {
 
     font-family: 'Manrope', sans-serif;
-
     font-size: 24px;
     font-weight: 400;
     line-height: 36px;
     letter-spacing: 0.5px;
-    text-align: justified;
+    text-align: justify;
 
 }
 
@@ -201,13 +188,10 @@ main {
 }
 
 footer {
-    
     width: 68.7%;
-
-    
     border: 4px solid white;
     padding: 16px 120px 16px 120px;
-    color: white
+    color: white;
 }
 
 #hireme {
@@ -246,14 +230,16 @@ footer {
     letter-spacing: 0.5px;
     text-align: left;
 }
-.btn{
- margin-top: 30px;
+
+.btn {
+    margin-top: 30px;
 }
 
-.foot-logo{
+.foot-logo {
     display: flex;
     gap: 250px;
 }
+
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -261,7 +247,6 @@ footer {
     height: 19.95px;
     text-align: center;
     text-decoration: none;
-   
     margin: 5px 2px;
 }
 
@@ -270,16 +255,17 @@ footer {
 }
 
 .fa-facebook {
-    
+
     color: white;
 }
 
 .fa-twitter {
-   
+
     color: white;
-    
+
 }
+
 .fa-instagram {
-    
+
     color: white;
 }
