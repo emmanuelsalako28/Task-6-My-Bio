@@ -1,12 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Halant:wght@500&display=swap');
 
+@media screen and (max-width :375px) {
+    .nav-word {
+        display: flex;
+    }
 
+    .down {}
+}
 
 * {
     padding: o;
     margin: 0;
-    box-sizing: border-box;
+
 }
 
 body {
@@ -16,14 +22,10 @@ body {
 .nav-word {
 
 
-    height: 86.08000183105469px;
-    width: 1512px;
-    left: 0px;
-    top: 0px;
-    border-radius: 0px;
+    width: 70%;
     padding: 16px 120px 16px 120px;
     background-color: #F1F5FE;
-    margin: 50px auto;
+
 
 }
 
@@ -31,7 +33,7 @@ body {
 #logo {
     color: #155EEF;
     font-family: 'Manrope', sans-serif;
-    
+
 
 }
 
@@ -58,17 +60,17 @@ body {
 
 .bio {
     height: 535px;
-    width: 1512px;
-    left: 0px;
+    /* width: 1512px; */
+    width: 100%;
     top: 80px;
-    border-radius: 0px;
     color: whitesmoke;
-    margin-left: 390px ;
+    /* margin-left: 110px ; */
 }
-.see{
+
+.see {
     background-color: #155EEF;
     color: white;
-    Padding:10px,16px,10px,16px;
+    Padding: 10px, 16px, 10px, 16px;
     width: 164px;
     height: 44px;
     gap: 10px;
@@ -81,7 +83,7 @@ body {
 
 }
 
-#anthony{
+#anthony {
     font-family: 'Halant', serif;
     font-size: 56px;
     font-weight: 600;
@@ -89,38 +91,161 @@ body {
     color: #FFFFFF;
 
 }
-.bio h3{
-    color:  #B8B8B8;
-    font-size: 32px;
+
+.bio h3 {
+    color: #B8B8B8;
+    font-size: 20px;
     line-height: 48px;
     letter-spacing: 0.5 px;
 }
-.bio p{
+
+.bio p {
     color: #B8B8B8;
-    font-size: 32px;
-    line-height: 48px;
-    
-    Align: Left;
-    Vertical-align: Top; 
-    Letter-spacing: 0.5px;
+    height: 144px;
+    width: 840px;
+    border-radius: nullpx;
     font-family: 'Manrope', sans-serif;
-    font-style: Medium;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0.5px;
+    text-align: left;
 }
-.toppy{
+
+.toppy {
     display: flex;
-  
+    width: 60%;
+
+
+
 }
-.toppy img{
-    margin-right: 350px;
+
+.toppy img {
+    height: 479px;
+    width: 443px;
+    left: 949px;
+    top: 56px;
+    border-radius: 0px;
 }
-.about{
+
+.about {
     background-color: white;
-    Width :1512px ;
-    Height :438px;
-    margin-left: 250px;
+    width: 85%;
+    Height: 438px;
+    display: flex;
+    gap: 20px;
+
+
 }
-.abt{
+
+.about img {
+
+    width: 516px;
+    Height: 374px;
+    display: flex;
+    margin-top: 32px;
+    margin-left: 120px;
+
+
+}
+
+.meee {
+    margin-top: 32px;
+
+    height: 374px;
+    width: 623px;
+    left: 769px;
+    top: 32px;
+    border-radius: 0px;
+    padding: 16px 24px 16px 24px;
+}
+
+.about h2 {
+    font-family: 'Halant', serif;
+
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.about p {
+
+    font-family: 'Manrope', sans-serif;
+
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    text-align: justified;
+
+}
+
+.abt {
     width: 40%;
     display: flex;
     justify-content: space-between;
+}
+
+main {
+
+    margin: 0px 200px;
+    height: 1205px;
+    width: 1512px;
+    left: 168px;
+    top: -19px;
+
+
+}
+
+footer {
+    height: 88px;
+    width: 68.7%;
+
+    top: 1117px;
+    border: 4px solid white;
+    padding: 16px 120px 16px 120px;
+    color: red;
+}
+
+#hireme {
+    background-color: #155EEF;
+    border: 3px solid #155EEF;
+    height: 44px;
+    width: 160px;
+    left: 0px;
+    top: 0px;
+    border-radius: 8px;
+    color: white;
+    padding: 0px 0px 0px 45px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+
+
+#seemy {
+    margin-left: 20px;
+    background-color: white;
+    color: #155EEF;
+    border: 3px solid #155EEF;
+    height: 44px;
+    width: 160px;
+    left: 0px;
+    top: 0px;
+    border-radius: 8px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+.btn{
+ margin-top: 30px;
 }
