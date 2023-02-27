@@ -120,7 +120,7 @@ body {
 
 
 .about img {
-  
+  margin-bottom: 32px;
   display: flex;
   margin-top: 32px;
   margin-left: 120px;
