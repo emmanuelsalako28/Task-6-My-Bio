@@ -1,275 +1,259 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Halant:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Halant:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap");
 
 * {
-    padding: o;
-
-
+  padding: o;
 }
 
 body {
-    background-color: black;
+  background-color: black;
 }
 
 .nav-word {
-    width: 70%;
-    padding: 16px 120px 16px 120px;
-    background-color: #F1F5FE;
+  height: 86.08000183105469px;
+ 
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  padding: 16px 120px 16px 120px;
+  background-color: white;
 }
 
-
-
 .home {
-    display: flex;
+  display: flex;
     justify-content: space-between;
-    font-family: 'Halant', serif;
-    Height: Hug (44px);
-    Top: 21.04px;
-    Left: 953px;
-    Gap: 97px;
+  font-family: "Halant", serif;
+  height: Hug (44px);
+  top: 21.04px;
+  left: 953px;
+  gap: 97px;
+}
+
+.abtt{
+ display: flex;
+ justify-content: space-evenly;
+ gap: 55px;
 }
 
 .hire {
-    color: #155EEF;
-    height: 44px;
-    width: 94px;
-    left: 346.5px;
-    border-radius: 8px;
-    margin-top: 19px;
-    border-color: #155EEF;
+  color: #155eef;
+  height: 44px;
+  
+  left: 346.5px;
+  border-radius: 8px;
+  margin-top: 19px;
+  border-color: #155eef;
 }
 
 .bio {
-    height: 535px;
-    /* width: 1512px; */
-    width: 100%;
-    top: 80px;
-    color: whitesmoke;
-    /* margin-left: 110px ; */
-    padding-left: 100px;
-}
+  height: 535px;
 
-.see {
-    background-color: #155EEF;
-    color: white;
-    Padding: 10px, 16px, 10px, 16px;
-    width: 164px;
-    height: 44px;
-    gap: 10px;
-    border-radius: 8px;
-    font-family: 'Manrope', sans-serif;
-    font-weight: 700;
-    size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.5 px;
-
-}
-
-#anthony {
-    font-family: 'Halant', serif;
-    font-size: 56px;
-    font-weight: 600;
-    line-height: 67.2px;
-    color: #FFFFFF;
-
-}
-
-.bio h3 {
-    color: #B8B8B8;
-    font-size: 20px;
-    line-height: 48px;
-    letter-spacing: 0.5 px;
+  
+  top: 80px;
+  color: whitesmoke;
+  /* margin-left: 110px ; */
+  padding-left: 100px;
 }
 
 .bio p {
-    color: #B8B8B8;
-    height: 144px;
-    width: 840px;
-    border-radius: nullpx;
-    font-family: 'Manrope', sans-serif;
-    font-size: 32px;
-    font-weight: 500;
-    line-height: 48px;
-    letter-spacing: 0.5px;
+  color: #b8b8b8;
+  height: 144px;
+  width: 840px;
+  border-radius: nullpx;
+  font-family: "Manrope", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0.5px;
+}
+.see {
+  background-color: #155eef;
+  color: white;
+  padding: 10px, 16px, 10px, 16px;
+  width: 164px;
+  height: 44px;
+  gap: 10px;
+  border-radius: 8px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5 px;
+}
 
+#anthony {
+  font-family: "Halant", serif;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 67.2px;
+  color: #ffffff;
+}
+
+.bio h3 {
+  color: #b8b8b8;
+  font-size: 20px;
+  line-height: 48px;
+  letter-spacing: 0.5 px;
 }
 
 .toppy {
-    display: flex;
-    height: 479px;
-    width: 50%;
-    margin-top: 90px;
-
+  display: flex;
+  height: 479px;
+ 
+  margin-top: 90px;
 }
 
 .toppy img {
-    height: 479px;
-    width: 443px;
-    left: 949px;
-
-
+  height: 479px;
+  width: 443px;
+  left: 949px;
 }
 
 .about {
-    background-color: white;
-    width: 85%;
-    Height: 438px;
+  height: 438px;
+  width: 1512px;
+  left: 0px;
+  top: 647px;
+  border-radius: 0px;
+  background-color: white;
     display: flex;
     gap: 20px;
 }
 
-.about img {
 
-    width: 516px;
-    Height: 374px;
-    display: flex;
-    margin-top: 32px;
-    margin-left: 120px;
+
+.about img {
+  width: 516px;
+  height: 374px;
+  display: flex;
+  margin-top: 32px;
+  margin-left: 120px;
 }
 
 .meee {
-    margin-top: 32px;
-    height: 374px;
-    width: 623px;
-    left: 769px;
-    top: 32px;
-    border-radius: 0px;
-    padding: 16px 24px 16px 24px;
+  margin-top: 32px;
+  height: 374px;
+  width: 623px;
+  left: 769px;
+  top: 32px;
+  border-radius: 0px;
+  padding: 16px 24px 16px 24px;
 }
 
 .about .meee p {
-    color: #494747;
-    font-family: 'Manrope';
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 36px;
-    letter-spacing: 0.5px;
-    text-align: justify;
+  color: #494747;
+  font-family: "Manrope";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0.5px;
+  text-align: justify;
 }
 
 .about h2 {
-    font-family: 'Halant', serif;
+  font-family: "Halant", serif;
 
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 50px;
-    letter-spacing: 0em;
-    text-align: left;
-    font-style: normal;
-
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+  font-style: normal;
 }
 
-
-
-.abt {
-    width: 40%;
-    display: flex;
-    justify-content: space-between;
-}
 
 main {
-
-    margin: 0px 200px;
-    height: 1205px;
-    width: 1512px;
-    left: 168px;
-    top: -19px;
-
-
+  margin: 0px 200px;
+  height: 1205px;
+  left: 168px;
+  top: -19px;
+  width: 1512px;
 }
 
 footer {
-    width: 1512px;
-    border: 4px solid black;
-    padding: 16px 120px 16px 120px;
-    color: white;
+  width: 1512px;
+  border: 4px solid black;
+  padding: 16px 120px 16px 120px;
+  color: white;
 }
 
 #hireme {
-    background-color: #155EEF;
-    border: 3px solid #155EEF;
-    height: 44px;
-    width: 160px;
-    left: 0px;
-    top: 0px;
-    border-radius: 8px;
-    color: white;
-    padding: 0px 0px 0px 45px;
-    font-family: 'Manrope', sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 0.5px;
-    text-align: left;
+  background-color: #155eef;
+  border: 3px solid #155eef;
+  height: 44px;
+  width: 160px;
+  left: 0px;
+  top: 0px;
+  border-radius: 8px;
+  color: white;
+  padding: 0px 0px 0px 45px;
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: left;
 }
 
-
 #seemy {
-    margin-left: 20px;
-    background-color: white;
-    color: #155EEF;
-    border: 3px solid #155EEF;
-    height: 44px;
-    width: 160px;
-    left: 0px;
-    top: 0px;
-    border-radius: 8px;
-    font-family: 'Manrope', sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 0.5px;
-    text-align: left;
+  margin-left: 20px;
+  background-color: white;
+  color: #155eef;
+  border: 3px solid #155eef;
+  height: 44px;
+  width: 160px;
+  left: 0px;
+  top: 0px;
+  border-radius: 8px;
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: left;
 }
 
 .btn {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .foot-logo {
-    display: flex;
-    gap: 170px;
+  display: flex;
+  gap: 170px;
 }
 
 .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 20px;
-    height: 19.95px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  height: 19.95px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
 }
 
 .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .fa-facebook {
-
-    color: white;
+  color: white;
 }
 
 .fa-twitter {
-
-    color: white;
-
+  color: white;
 }
 
 .fa-instagram {
-
-    color: white;
+  color: white;
 }
 
 .foot-logo p {
-    font-family: 'Manrope', sans-serif;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 36px;
-    letter-spacing: 0.5px;
-    text-align: left;
-
+  font-family: "Manrope", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0.5px;
+  text-align: left;
 }
