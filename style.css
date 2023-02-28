@@ -58,7 +58,7 @@ body {
 
 .bio p {
   color: #b8b8b8;
-  
+  width: 70%;
   border-radius: nullpx;
   font-family: "Manrope", sans-serif;
   font-size: 32px;
@@ -67,17 +67,13 @@ body {
   letter-spacing: 0.5px;
 }
 .see {
-  background-color: #155eef;
-  color: white;
-  padding: 10px, 16px, 10px, 16px;
- 
-  gap: 10px;
+  background-color: blue;
+  color: #fff;
+  border: 3px solid blue;
+  height: 44px;
+  width: 160px;
   border-radius: 8px;
-  font-family: "Manrope", sans-serif;
-  font-weight: 700;
-  size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.5 px;
+
 }
 
 #anthony {
