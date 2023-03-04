@@ -277,7 +277,7 @@ header{
  
  display: flex;
  flex-direction: column-reverse;
-  height: 0%;
+  height: 80%;
 align-self: start;
 }
 
@@ -305,7 +305,8 @@ margin-top: 10px;
 }
 .bio{
 padding: 0PX;
-
+height: 70%;
+margin-bottom: 10px;
 }
 .about{
  height: 40%;
