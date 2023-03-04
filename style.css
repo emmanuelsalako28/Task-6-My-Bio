@@ -345,7 +345,7 @@ footer{
   flex-direction: column;
   justify-content: center;
   padding: 0px;
-  
+  line-height: normal;
 }
 .bio p{
  font-family: "Manrope", sans-serif;
@@ -365,7 +365,7 @@ width: 100%;
  font-family: Halant;
 font-size: 24px;
 font-weight: 600;
-line-height: 29px;
+line-height: 5px;
 letter-spacing: 0em;
 text-align: center;
 
@@ -373,6 +373,8 @@ text-align: center;
 #im{
  display: flex;
  justify-content: center;
+ line-height: normal;
+ margin-top: 20px;
 }
  .btn{
   display: flex;
