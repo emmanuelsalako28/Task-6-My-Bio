@@ -251,16 +251,18 @@ body {
 *{
   padding: 0px;
   margin: 0px;
-  box-sizing: border-box;
+box-sizing: border-box;
 }
 
 body{
   display: flex;
   flex-direction: column;
-  width: 100%;
 
+  
+color: blu;
 }
 main{
+  
   height: 100%;
 }
 .abtt{
@@ -277,12 +279,27 @@ header{
  
  display: flex;
  flex-direction: column-reverse;
-  height: 50%;
-  padding: 0px;
-margin-top: 0px;
-
+  height: 0%;
+align-self: start;
+}
+.toppy img {
+  
+  left: 0px;
 }
 
+.see {
+height: 44px;
+width: 298px;
+left: 0px;
+top: 88px;
+border-radius: 8px;
+
+
+}
+.bio{
+
+
+}
 .about{
  height: 40%;
  
@@ -299,25 +316,92 @@ footer{
   flex-direction: column;
   justify-content: center;
   padding: 0px;
-  margin-left: 0px;
+  
 }
 .bio p{
-  width: 100%;
-  font-family: "Manrope", sans-serif;
+ font-family: "Manrope", sans-serif;
 font-size: 16px;
 font-weight: 500;
 line-height: 24px;
 letter-spacing: 0.5px;
-margin-bottom: 20px;
+text-align: center;
+width: 100%;
+
 
 }
 #anthony{
-  font-size: 24px;
-  
+ display: flex;
+ justify-content: center;
+ font-family: Halant;
+font-size: 24px;
+font-weight: 600;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: center;
+
 }
 #im{
-  margin-left: 60px;
+ display: flex;
+ justify-content: center;
+}
+ .btn{
+  display: flex;
+  gap: 2px;
+ }
+ #hireme{
+    background-color: #155eef;
+  border: 3px solid #155eef;
+  height: 44px;
+  width: 160px;
+  border-radius: 8px;
+  color: white;
+  padding: 0px 0px 0px 45px;
+  font-family: "Manrope", sans-serif;
   font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: left;
+ }
+
+ #seemy {
+  background-color: white;
+  border: 3px solid #155eef;
+  height: 44px;
+  width: 180px;
+  border-radius: 8px;
+  color: #155eef;
+  padding: 0px 0px 0px 35px;
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: left;
+}
+.meee h2{
+display: flex;
+justify-content: center;
+}
+
+#p{
+font-family: "Manrope", sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.5px;
+text-align: justified;
+
+}
+.foot-logo{
+    display: flex;
+    justify-content: space-around;
+}
+.faaa{
+  display: flex;
+}
+#any2023{
+  display: none;
 }
 }
 
