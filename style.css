@@ -246,3 +246,135 @@ body {
   text-align: left;
   color: white;
 }
+
+@media screen and (max-width:1015px) {
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+}
+main{
+  height: 100%;
+}
+.abtt{
+  display: none;
+}
+.home img{
+  padding: 0px;
+  
+}
+header{
+  height: 10%;
+}
+.toppy{
+ 
+ display: flex;
+ flex-direction: column-reverse;
+  height: 50%;
+  padding: 0px;
+margin-top: 0px;
+
+}
+
+.about{
+ height: 40%;
+ 
+}
+.about img{
+ display: none;
+}
+footer{
+
+  height: 5%;
+}
+.bio h3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px;
+  margin-left: 0px;
+}
+.bio p{
+  width: 100%;
+  font-family: "Manrope", sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.5px;
+margin-bottom: 20px;
+
+}
+#anthony{
+  font-size: 24px;
+  
+}
+#im{
+  margin-left: 60px;
+  font-size: 16px;
+}
+}
+
+
+
+
+
+
+
+
+/* 
+header{
+  height: 10%;
+}
+.toppy{
+ 
+}
+
+.toppy .image{
+  height: 20%;
+  
+}
+
+.about img{
+  display: none;
+  
+}
+.bio{
+  display: flex;
+  flex-direction: column;
+  background-color: wheat;
+   
+ 
+   padding-left: 0px;
+}
+.nav-word{
+  height: 10%;
+  margin-top: 0px;
+}
+.abtt{
+  display: none;
+}
+.home img{
+  height: 45.08000183105469px;
+width: 45.08000183105469px;
+
+
+
+
+
+}
+
+.home{
+top: 0px;
+}
+
+footer{
+  height: 5%;
+  
+} 
