@@ -152,7 +152,10 @@ body {
   font-style: normal;
 }
 
-
+.inile{
+  display: flex;
+  gap: 50px;
+}
 
 #hireme {
   background-color: #155eef;
@@ -314,11 +317,52 @@ margin-bottom: 10px;
  
 }
 
+header {
+  padding: 8px;
+  background-color: white;
+}
+
 .nav-word {
   padding: 0px;   
  margin: 0px; 
  height: 50px;
-    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hamburger {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.hamburger::before,
+.hamburger::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+}
+
+.hamburger::before {
+  border: 2px solid black;
+  border-left: unset;
+  border-right: unset;
+}
+
+.hamburger::after {
+  width: 100%;
+  height: 2px;
+  top: 50%;
+  z-index: 1;
+  background-color: black;
+  transform: translateY(-50%);
 }
 
 .home img{
@@ -404,10 +448,10 @@ text-align: center;
   background-color: white;
   border: 3px solid #155eef;
   height: 44px;
-  width: 180px;
+  width: 160px;
   border-radius: 8px;
   color: #155eef;
-  padding: 0px 0px 0px 35px;
+  padding: 0px 0px 0px 20px;
   font-family: "Manrope", sans-serif;
   font-size: 16px;
   font-weight: 700;
@@ -433,71 +477,26 @@ text-align: justified;
 padding: 10px 10px 5px 10px;
 }
 .foot-logo{
-    display: flex;
-    justify-content: space-around;
+  display: inline-block;
+
 }
 .faaa{
   display: flex;
 }
 #any2023{
-  display: none;
-}
-}
-
-
-
-
-
-
-
-
-/* 
-header{
-  height: 10%;
-}
-.toppy{
- 
-}
-
-.toppy .image{
-  height: 20%;
-  
-}
-
-.about img{
-  display: none;
-  
-}
-.bio{
+ font-size: 15.96px;
   display: flex;
-  flex-direction: column;
-  background-color: wheat;
-   
- 
-   padding-left: 0px;
-}
-.nav-word{
-  height: 10%;
-  margin-top: 0px;
-}
-.abtt{
-  display: none;
-}
-.home img{
-  height: 45.08000183105469px;
-width: 45.08000183105469px;
-
-
-
-
+  justify-content: center;
+  font-family: Manrope;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.4988210201263428px;
+text-align: left;
 
 }
-
-.home{
-top: 0px;
+.inile{
+  display: flex;
+  justify-content: space-around;
 }
-
-footer{
-  height: 5%;
-  
-} 
+}
